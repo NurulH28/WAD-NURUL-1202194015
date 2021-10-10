@@ -1,0 +1,20 @@
+body{
+    background-color: #ffffff;
+  }
+  
+  .right-distance{
+    margin-right: 10px;
+  }
+  
+  .Jumbotron {
+    background-color: #d9d9d9;
+    padding: 4rem;
+  }
+  
+  #layanan {
+    background-color: #d9d9d9;
+  }
+  
+  #registrasi {
+    padding: 4rem;
+  }
