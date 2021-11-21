@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- BOOTSTRAP CSS -->
-        <link hfer="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
         <title>Home | ESD VANUE</title>
@@ -14,7 +14,7 @@
 
       <body>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="navbar example">
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
                   <a class="nav-link" href="Home.php">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Boking.php">Booking</a>
+                  <a class="nav-link" href="Booking.php">Booking</a>
                 </li>
               </ul>
             </div>
@@ -94,7 +94,7 @@
                 <li class="list-group-item fw-bold text-success">Covid-19 Health Protocol</li>
               </ul>
               <div class="card-footer text-center">
-                <a href="Booking.php?type=" class="btn btn-primary" type="button">Book Now</a>
+                <a href="Booking.php?type=Gedung Serba Guna " class="btn btn-primary" type="button">Book Now</a>
               </div>
             </div>
           </div>
