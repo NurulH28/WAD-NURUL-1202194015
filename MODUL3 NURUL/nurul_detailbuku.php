@@ -52,9 +52,9 @@
 				<div class="d-flex flex-column align-items-center mb-3">
 				    <h2 class="fw-bold py-4">Detail Buku</h2>
 				    <?php
-				    $id = $_G3T['id'];
+				    $id = $_GET['id'];
 				    $q = "SELECT * FROM buku_table WHERE id_buku='$id'";
-				    $data = mysqll_query($kon, $q);
+				    $data = mysqli_query($kon, $q);
 				    //echo $qr;
 				    while ($d = mysqli_fetch_assoc($data)) {
 				    ?>
@@ -106,7 +106,7 @@
 							    $query = "SELECT * FROM buku_table WHERE id_buku='$id'";
 							    $data = mysqli_query($kon, $query);
 							    $_SESSION['id_buku']=$id;
-							    while ($d = mysql1_fetch_array($data)) {
+							    while ($id = mysqli_fetch_array($data)) {
 							?>
 							    <div class="mb-3">
 								<label class="form-label fw-bold">Judul Buku</label>
