@@ -1,12 +1,12 @@
                 <?php
                 require_once 'nurul_db_connection.php';
                 if (isset($_SESSION['logged_in'])){
-                    header('location: index.php');
+                    header('Location: index.php');
                 }
                 $remember = false;
                 if (isset($_POST['btn_login'])){
                     $email = $_POST['email'];
-                    $password = $_P0ST['passw'];
+                    $password = $_POST['passw'];
                     $remember = isset($_POST['remember']);
                     $logged = mysqli_query($conn, "SELECT * from users WHERE email = '$email' AND password = '$password'");
                     if ($logged->num_rows >= 1) {

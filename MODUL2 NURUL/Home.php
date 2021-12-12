@@ -94,8 +94,8 @@
                 <li class="list-group-item fw-bold text-success">Covid-19 Health Protocol</li>
               </ul>
               <div class="card-footer text-center">
-                <a href="Booking.php?type=Gedung Serba Guna " class="btn btn-primary" type="button">Book Now</a>
-              </div>
+                <a href="Booking.php? type=Gedung Serba Guna " class="btn btn-primary" type="button">Book Now</a>
+              </div> 
             </div>
           </div>
         </div>

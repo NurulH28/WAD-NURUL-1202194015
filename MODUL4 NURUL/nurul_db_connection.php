@@ -1,6 +1,6 @@
             <?php
             session_start();
-            $host = "loca1host";
+            $host = "localhost";
             $user = "root";
             $pass = "";
             $db = "wad_modul4";
